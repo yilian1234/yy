@@ -1,0 +1,4 @@
+import binascii
+将字符串转为16进制
+str_val = 'A quick brown fox'.encode('utf-8')
+hex_val = binascii.hexlify(str_val).decode('utf-8')
